@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hearth Ledger — a household budget that balances</title>
+<meta name="description" content="Hearth Ledger is a working household budget site: a monthly planner, spending by category against the U.S. average, a transactions ledger, bills and due dates, savings goals, and 50/30/20 planning with emergency-fund and debt-payoff calculators.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="#/"><span class="brand-mark">H</span><span class="brand-text"><strong>Hearth Ledger</strong><span>every dollar has a room</span></span></a>
+    <div class="header-controls">
+      <div id="month-picker" class="month-picker"></div>
+      <button class="btn small" data-action="reset-demo" type="button">Reset demo</button>
+    </div>
+  </div>
+  <nav id="main-nav" class="main-nav" aria-label="Sections"></nav>
+</header>
+<main id="view" class="page"></main>
+<footer class="site-footer">
+  <p><strong>Hearth Ledger</strong> — a demo household budget. Figures for the Alvarez household are its own ledger; every “U.S. average” figure is the U.S. Bureau of Labor Statistics, Consumer Expenditure Survey 2024 (news release USDL-25-1586, December 2025), annual averages divided by 12. Educational only, not financial advice.</p>
+  <p>Works offline: no network requests, no accounts, no cookies. Your edits are saved in this browser only.</p>
+</footer>
+<script type="module" src="main.js"></script>
+</body>
+</html>
